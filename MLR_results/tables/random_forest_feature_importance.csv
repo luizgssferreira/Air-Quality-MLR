@@ -1,0 +1,5 @@
+Feature,Importance
+Overall Pollutant Concentration (PC1),0.8083931980787865
+Nitrogen Oxides and Temperature (PC4),0.09466117912558307
+Relative Humidity (PC3),0.05148301295475351
+Temperature and Humidity vs. Nitrogen Oxides (PC2),0.04546260984087682
