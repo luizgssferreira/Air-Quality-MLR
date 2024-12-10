@@ -691,9 +691,9 @@ The analysis confirms that:
 
 SHAP analysis provides a deeper understanding of the contributions of each PCA component in the **Random Forest** model:
 
-1. **Dominance of PC1**: Confirmed as the most influential feature, indicating that managing overall pollutant concentrations can significantly improve air quality.
-2. **Moderate Role of PC4**: Nitrogen oxides and temperature are relevant secondary factors.
-3. **Minimal Impact of PC3**: Relative humidity has limited predictive value for CO levels in this dataset.
+1. **Dominance of Overall Pollutant Concentration**: Confirmed as the most influential feature, indicating that managing overall pollutant concentrations can significantly improve air quality.
+2. **Minimal Impact of Nitrogen Oxides and Temperature**: Nitrogen oxides and temperature are relevant secondary factors.
+3. **Minimal Impact of Relative Humidity, Humidity and Nitrogen Oxides**: Relative humidity, humidity and Nitrogen oxides concentration has limited predictive value for CO levels in this dataset
 
 These insights align with feature importance results from the Random Forest model, strengthening confidence in the model’s interpretation. SHAP’s explainability ensures that predictions are transparent, aiding both scientific research and policymaking.
 
